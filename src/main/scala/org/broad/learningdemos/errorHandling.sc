@@ -5,6 +5,7 @@
   * 4. For comprehension
   */
 import cats.Functor
+import cats.effect.IO
 import cats.implicits._
 
 def getUserId1(name: String): Int = {
